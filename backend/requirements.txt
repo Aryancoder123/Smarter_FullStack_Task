@@ -1,0 +1,9 @@
+fastapi>=0.95
+uvicorn[standard]>=0.22
+requests>=2.31
+beautifulsoup4>=4.12
+transformers>=4.40
+sentence-transformers>=2.2
+weaviate-client>=3.26.7,<4.0.0
+python-multipart>=0.0.6
+pytest>=7.0
