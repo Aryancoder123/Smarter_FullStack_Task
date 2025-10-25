@@ -102,7 +102,7 @@ export default function App() {
                 return (
                   <li key={idx} className="match-item">
                     <div className="score-box">
-                      {(Number(r.score) * 100).toFixed(2)}%
+                      Match: {(Number(r.score) * 100).toFixed(2)}%
                     </div>
                     <div className="meta">
                       {idx + 1}. Chunk #{r.chunk_id}
